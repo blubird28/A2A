@@ -27,10 +27,10 @@ services:
     image: mysql:8.0
     container_name: mysql_db
     environment:
-      MYSQL_ROOT_PASSWORD: root_password
-      MYSQL_DATABASE: movie_db
-      MYSQL_USER: laravel_user
-      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: athelete_root
+      MYSQL_DATABASE: athelete_db
+      MYSQL_USER: athelete
+      MYSQL_PASSWORD: athelete
     ports:
       - "3306:3306"
     volumes:
